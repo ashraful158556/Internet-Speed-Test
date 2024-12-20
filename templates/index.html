@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Advanced Internet Speed Test</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Internet Speed Test</h1>
+        <button id="test-btn">Run Speed Test</button>
+
+        <!-- Progress Meter -->
+        <div class="meter-container">
+            <div class="meter" id="speed-meter"></div>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="results">
+            <p>Download Speed: <span id="download">--</span> Mbps</p>
+            <p>Upload Speed: <span id="upload">--</span> Mbps</p>
+            <p>Ping: <span id="ping">--</span> ms</p>
+            <p>Server: <span id="server">--</span></p>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
